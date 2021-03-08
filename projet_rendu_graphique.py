@@ -13,7 +13,7 @@ grid = (np.arange(N) + 0.5)/N - 0.5
 ## mesure de probabilité pi
 ## exemple 1 : distribution uniforme sur [-0.5,0.5]
 pi = np.ones(N)/N
-## exemple 2 : distribution gaussienne sur [-0.5,0,5]
+## exemple 2 : distribution gaussienne sur [-0.5,0.5]
 #ecty = 5
 #pi = signal.gaussian(N, std=ecty)/(ecty*np.sqrt(2*np.pi))
 
