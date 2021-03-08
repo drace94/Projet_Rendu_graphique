@@ -88,8 +88,8 @@ def Grad_G(pi,grid,p):
     return interp(grid,val,p)/N
 
 ## algorithme de descente de gradient pour minimiser J 
-iter_max = 200
-h = 0.2
+iter_max = 500
+h = 1e-1
 p = npr.uniform(-0.25,0.25,N)
 for n_iter in range(iter_max):
     gF = Grad_F(p)
